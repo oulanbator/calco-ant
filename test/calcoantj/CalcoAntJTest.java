@@ -67,6 +67,20 @@ public class CalcoAntJTest {
     }
 
     /**
+     * Test of add method, of class CalcoAntJ.
+     */
+    @Test
+    public void testMutiply() {
+        System.out.println("Multiplication");
+        int a = 10;
+        int b = 2;
+        CalcoAntJ instance = new CalcoAntJ();
+        int expResult = 20;
+        int result = instance.multiply(a, b);
+        assertEquals(expResult, result);
+    }
+
+    /**
      * Test of divide method, of class CalcoAntJ.
      * @throws java.lang.Exception
      */
